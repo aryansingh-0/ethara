@@ -30,9 +30,11 @@ Prerequisites:
      PORT=5000
      MONGO_URI=your_mongodb_uri
      JWT_SECRET=your_jwt_secret
+     JWT_EXPIRES_IN=10d
      EMAIL_USER=your_email_address
      EMAIL_PASS=your_email_app_password
-     OPENAI_API_KEY=your_openai_api_key (for AI features)
+     EMAIL_HOST=smtp.gmail.com
+     OPENROUTER_API_KEY=your_openrouter_api_key (for AI features)
    - Run the server:
      node server.js (or "npm run dev" if configured)
 
